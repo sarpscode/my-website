@@ -1,0 +1,113 @@
+
+body{
+	font-family:segoe UI historic, helvetica,arial,sans-serif;
+	 background-image:url('img/natty-2.jpg');
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 height:100vh;
+	 width:68%;
+	 position:fixed;
+}	
+.nav-menu-2{
+	
+}
+.nav-menu-2 div{
+	margin-top:5%;
+}
+.nav-menu-2 a{
+ text-decoration:none;
+ color:white;
+ margin-left:50%;
+ margin-top:3%;
+ font-weight:500;
+ cursor:pointer;
+}
+.nav-menu-2 a:hover{
+	color:yellow;
+}
+.button i{
+	font-size:1.7em;
+	color:white;
+	margin-left:90%;
+	position:fixed;
+	
+}
+.happyimoji img{
+	width:65%;
+	height:65%;
+	margin-left:70%;
+	margin-top:-5%;
+	
+}
+.name{
+	color:white;
+	font-weight:700;
+	font-size:2.5em;
+	font-family:"Poppins", sans-serif;
+	text-decoration:none;
+	margin-left:83%;
+	padding-bottom:%;
+	display:inline-block;
+	margin-right:-28%;
+}
+.name h1{
+	padding-top:-10%;
+}
+h2{
+	color:white;
+	font-size:1.2em;
+	margin-left:68%;
+	display:inline-block;
+	line-height:1;
+	margin-top:-80%;
+	margin-right:-39%;
+	
+}
+h2 span{
+	color:hotpink;
+	border-bottom:2px solid yellow;
+}
+.nav-menu{
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	width:50%;
+	margin-left:%;
+}
+.nav-menu a{
+ text-decoration:none;
+ color:white;
+}
+
+
+.nav-menu-2{
+	position:relative;
+	margin-left:%;
+	margin-top:-70%;
+	width:;
+	background:transparent;
+	color:white;
+	height:90%;
+	opacity:1;
+	visibility:visible;
+	z-index:5000;
+}
+.nav-menu-2:before{
+	content:'';
+	position:fixed;
+	margin-left:-5%;
+	margin-top:-2%;
+	width:110%;
+	height:90%;
+	background:rgba(0,0,0,.5);
+	z-index:-1;
+	opacity:1;
+	visibility:visible;
+}
+.home{
+	z-index:;
+}
+@media(min-width:1200px){
+	.button{
+		display:none;
+	}
